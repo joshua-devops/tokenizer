@@ -25,4 +25,4 @@ stream = Stream.new("math.clazz")
 ```ruby
 stream.tokenize("y = 10x - 5")
 ```
-(In order to remove all whitespace from the string, pass the `remove_ws=true` argument. It's false by default.) The tokenize method saves the tokens in a private property called tokens. In order to access the tokens use the various methods (each, get_*, has_*, rem_*, etc.) provided.
+(In order to remove all whitespace from the string, pass the `remove_ws=true` argument. It's false by default.) The tokenize method saves the tokens in a private property called tokens. In order to access the tokens use the various methods (each, get_\*, has_\*, rem_\*, etc.) provided.
