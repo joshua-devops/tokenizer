@@ -10,6 +10,6 @@ stream.tokenize(str)
 
 i = 0
 stream.each do |x|
-  puts "#{x.clazz} -> #{x.lexeme}"
+  puts "#{x.clazz.name} -> #{x.lexeme}"
   i += 1
 end
