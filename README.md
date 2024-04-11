@@ -1,4 +1,4 @@
-# tokenizer -- A simple way 
+# tokenizer -- A simple way of tokenizing a string
 
 Demonstration of how to tokenize a string in Ruby using regular expressions.
 
