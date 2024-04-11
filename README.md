@@ -18,11 +18,11 @@ There is actually one mandatory token definition that always needs to be added. 
 ```
 2. Create an instance of Stream and provide the path to the file created above as its sole argument.
 ```ruby
-stream = Stream.new("math.clazz")
+tok = Tokenizer.new("math.clazz")
 ```
 
 3. Using the Stream instance, invoke the tokenize method with the desired string to tokenize as its argument. 
 ```ruby
-stream.tokenize("y = 10x - 5")
+stream = tok.tokenize("y = 10x - 5")
 ```
 (In order to remove all whitespace from the string, pass the `remove_ws=true` argument. It's false by default.) The tokenize method saves the tokens in a private property called tokens. In order to access the tokens use the various methods (each, get_\*, has_\*, rem_\*, etc.) provided.
